@@ -1,0 +1,44 @@
+name: assignment1
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share_plus: ^10.0.3  # Updated share_plus to version 10.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/google.png
+    - assets/linkedin.png
+    - assets/facebook.png
+    - assets/instagram.png
+    - assets/whatsapp.png
+    - assets/meetup1.png
+    - assets/meetup2.jpeg
+    - assets/meetup3.jpeg
+    - assets/person1.jpeg
+    - assets/person2.jpeg
+    - assets/person3.jpeg
+    - assets/trending1.png
+    - assets/trending2.png
+    - assets/trending3.png
+    - assets/trending4.png
+    - assets/trending5.png
+    - assets/trending6.png
+    - assets/plase1.jpg
+    - assets/plase2.png
+    - assets/plase3.png
